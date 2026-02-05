@@ -27,7 +27,7 @@ SECRET_KEY = "django-insecure-&$gvl=4!m3m*t=)ja8riu84tfn)kdr-7iq17ymi$nh9kwd))sl
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ["secret-message-vault-i9xw.onrender.com"]
 
 
 # Application definition
