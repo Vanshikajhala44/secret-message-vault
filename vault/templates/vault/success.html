@@ -1,0 +1,16 @@
+<h2>Secret Link Generated</h2>
+
+<input type="text" id="link" value="{{ link }}" readonly style="width:100%;">
+
+<br><br>
+
+<button onclick="copyLink()">Copy Link</button>
+
+<script>
+function copyLink() {
+  navigator.clipboard.writeText(
+    document.getElementById("link").value
+  );
+  alert("Link copied!");
+}
+</script>
